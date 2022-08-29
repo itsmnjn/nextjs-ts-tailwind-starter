@@ -575,15 +575,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/tailwindcss@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "@types/tailwindcss@npm:3.1.0"
-  dependencies:
-    tailwindcss: "*"
-  checksum: de91e6e6a33fe3e7ef00e323db4f1cbbc4802f2b667e416755c754dae1e86d5be2916654462db47d40ce0fbeb23ef546ecd52c653ff438c8ad918b370135c6ef
-  languageName: node
-  linkType: hard
-
 "@typescript-eslint/eslint-plugin@npm:^5.35.1":
   version: 5.35.1
   resolution: "@typescript-eslint/eslint-plugin@npm:5.35.1"
@@ -3867,6 +3858,37 @@ __metadata:
   languageName: node
   linkType: hard
 
+"nextjs-ts-tailwind-starter@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "nextjs-ts-tailwind-starter@workspace:."
+  dependencies:
+    "@commitlint/cli": ^17.1.1
+    "@commitlint/config-conventional": ^17.1.0
+    "@tailwindcss/forms": ^0.5.2
+    "@types/node": ^18.7.13
+    "@types/react": ^18.0.17
+    "@typescript-eslint/eslint-plugin": ^5.35.1
+    "@typescript-eslint/parser": ^5.35.1
+    autoprefixer: ^10.4.8
+    classnames: ^2.3.1
+    eslint: ^8.23.0
+    eslint-config-next: ^12.2.5
+    eslint-config-prettier: ^8.5.0
+    eslint-plugin-simple-import-sort: ^7.0.0
+    lint-staged: ^13.0.3
+    next: ^12.2.5
+    next-sitemap: ^3.1.21
+    postcss: ^8.4.16
+    prettier: ^2.7.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-icons: ^4.4.0
+    standard-version: ^9.5.0
+    tailwindcss: ^3.1.8
+    typescript: ^4.8.2
+  languageName: unknown
+  linkType: soft
+
 "node-gyp@npm:latest":
   version: 9.1.0
   resolution: "node-gyp@npm:9.1.0"
@@ -4082,38 +4104,6 @@ __metadata:
   checksum: 0846ce78e440841335d4e9182ef69d5762e9f38aa7499b19f42ea1c4cd40f0b4446094c455c713f9adac3f4ae86f613bb5e30c99e52652764d06a89f709b3788
   languageName: node
   linkType: hard
-
-"onlyselfies@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "onlyselfies@workspace:."
-  dependencies:
-    "@commitlint/cli": ^17.1.1
-    "@commitlint/config-conventional": ^17.1.0
-    "@tailwindcss/forms": ^0.5.2
-    "@types/node": ^18.7.13
-    "@types/react": ^18.0.17
-    "@types/tailwindcss": ^3.1.0
-    "@typescript-eslint/eslint-plugin": ^5.35.1
-    "@typescript-eslint/parser": ^5.35.1
-    autoprefixer: ^10.4.8
-    classnames: ^2.3.1
-    eslint: ^8.23.0
-    eslint-config-next: ^12.2.5
-    eslint-config-prettier: ^8.5.0
-    eslint-plugin-simple-import-sort: ^7.0.0
-    lint-staged: ^13.0.3
-    next: ^12.2.5
-    next-sitemap: ^3.1.21
-    postcss: ^8.4.16
-    prettier: ^2.7.1
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    react-icons: ^4.4.0
-    standard-version: ^9.5.0
-    tailwindcss: ^3.1.8
-    typescript: ^4.8.2
-  languageName: unknown
-  linkType: soft
 
 "optionator@npm:^0.9.1":
   version: 0.9.1
@@ -5280,7 +5270,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:*, tailwindcss@npm:^3.1.8":
+"tailwindcss@npm:^3.1.8":
   version: 3.1.8
   resolution: "tailwindcss@npm:3.1.8"
   dependencies:
